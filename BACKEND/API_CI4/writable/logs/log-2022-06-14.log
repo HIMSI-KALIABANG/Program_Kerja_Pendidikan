@@ -1,0 +1,184 @@
+CRITICAL - 2022-06-14 02:46:05 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\project-uas-semester-4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\project-uas-semester-4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-14 00:18:18 --> Undefined index: nomor_ktp
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\index.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 254, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(22): view('admin/index', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 00:18:33 --> Undefined index: nik
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\index.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 254, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(22): view('admin/index', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 03:15:11 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 04:48:33 --> Undefined variable: base_url
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\index.php(213): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 213, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(23): view('admin/index', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 04:54:43 --> Undefined variable: total_open
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\index.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 138, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(27): view('admin/index', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 04:58:19 --> syntax error, unexpected 'where' (T_STRING)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 04:58:26 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 04:58:27 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 04:58:27 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 04:58:27 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 04:58:27 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 04:58:28 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 04:58:28 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 04:58:28 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 04:58:28 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 04:58:28 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 04:58:37 --> syntax error, unexpected ''OPEN'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 04:58:44 --> Call to undefined method App\Models\ModelAntrian::total_inpg
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(24): CodeIgniter\Model->__call('total_inpg', Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,25 @@
+CRITICAL - 2022-05-24 02:43:46 --> Undefined property: App\Controllers\Home::$ModelAntrian
+#0 C:\xampp\htdocs\kuliah\uas\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\kuliah\uas\system\CodeIgniter.php(832): App\Controllers\Home->proses_buat_jb()
+#2 C:\xampp\htdocs\kuliah\uas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kuliah\uas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kuliah\uas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 02:44:25 --> Undefined property: App\Controllers\Home::$ModelAntrian
+#0 C:\xampp\htdocs\kuliah\uas\app\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\kuliah\uas\system\CodeIgniter.php(832): App\Controllers\Home->proses_buat_jb()
+#2 C:\xampp\htdocs\kuliah\uas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kuliah\uas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kuliah\uas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 03:25:05 --> Undefined index: 
+#0 C:\xampp\htdocs\kuliah\uas\app\Views\history_jb.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\kuliah\uas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kuliah\uas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kuliah\uas\system\Common.php(1089): CodeIgniter\View\View->render('history_jb', Array, true)
+#4 C:\xampp\htdocs\kuliah\uas\app\Controllers\Home.php(63): view('history_jb', Array)
+#5 C:\xampp\htdocs\kuliah\uas\system\CodeIgniter.php(832): App\Controllers\Home->history_jb()
+#6 C:\xampp\htdocs\kuliah\uas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kuliah\uas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kuliah\uas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

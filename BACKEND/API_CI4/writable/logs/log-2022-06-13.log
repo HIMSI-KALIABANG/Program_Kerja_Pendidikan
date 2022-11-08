@@ -1,0 +1,225 @@
+ERROR - 2022-06-13 19:46:41 --> Error connecting to the database: Unknown database 'db_jb'
+CRITICAL - 2022-06-13 19:46:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_jb'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\project-uas-semester-4\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Home.php(93): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Home->proses_login_jb()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 20:03:25 --> Undefined variable: history_jb
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\asd.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('asd', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Home.php(60): view('asd')
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Home->asd()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 21:10:43 --> syntax error, unexpected '=', expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 21:10:53 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 21:18:24 --> syntax error, unexpected ''judul'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 21:20:04 --> Undefined variable: history_jb
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\index.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 199, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(21): view('admin/index', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 21:54:23 --> Undefined variable: base_url
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\index.php(214): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 214, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(22): view('admin/index', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 21:54:57 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(22): view('admin/index', Array)
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 21:55:37 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(22): view('admin/index', Array)
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 22:35:40 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(22): view('admin/index', Array)
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 22:35:43 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(22): view('admin/index', Array)
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 22:35:51 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(22): view('admin/index', Array)
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 22:39:01 --> syntax error, unexpected '<'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(22): view('admin/index', Array)
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 22:39:12 --> syntax error, unexpected '"<h4>Data Belum Di Proses</h4>' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(22): view('admin/index', Array)
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 23:08:18 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(22): view('admin/index', Array)
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 23:08:36 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(22): view('admin/index', Array)
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 23:21:23 --> Undefined variable: row
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\index.php(245): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 245, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(22): view('admin/index', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 23:21:57 --> Undefined variable: row
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\index.php(245): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 245, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(22): view('admin/index', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 23:22:51 --> Undefined variable: row
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\index.php(246): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 246, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(22): view('admin/index', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 23:48:08 --> Undefined variable: category
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\index.php(313): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 313, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(22): view('admin/index', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 23:50:53 --> Undefined variable: product
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\index3.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index3', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(26): view('admin/index3')
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index3()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 23:51:07 --> Undefined variable: category
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\index3.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index3', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(26): view('admin/index3')
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index3()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 23:51:12 --> Undefined variable: category
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\index3.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index3', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(26): view('admin/index3')
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index3()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,259 @@
+CRITICAL - 2022-06-15 06:37:12 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:37:25 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:37:26 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:37:35 --> syntax error, unexpected 'elseif' (T_ELSEIF)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:37:41 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:38:14 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:38:18 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:38:19 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:41:17 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:43:04 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:43:10 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:45:11 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:46:26 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:46:27 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:46:27 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:46:27 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:46:27 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:56:47 --> syntax error, unexpected 'if' (T_IF), expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:56:50 --> syntax error, unexpected 'if' (T_IF), expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 06:56:53 --> syntax error, unexpected 'if' (T_IF), expecting ')'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 07:20:48 --> Undefined variable: status_baru
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->proses_jb()
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 07:36:44 --> Undefined variable: data
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->proses_jb()
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 07:38:13 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 07:38:20 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\project-uas-semester-4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 07:45:08 --> Undefined variable: base_url
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\list_user.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/list_user', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(41): view('admin/list_user', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->list_user()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-15 07:48:22 --> Undefined index: akses_level
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\list_user.php(190): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 190, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/list_user', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(41): view('admin/list_user', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->list_user()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-15 07:49:57 --> Undefined variable: total_keseluruhan
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\list_user.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 131, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/list_user', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(37): view('admin/list_user', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->list_user()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-15 07:57:01 --> Call to undefined method App\Models\ModelAntrian::total_user
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(36): CodeIgniter\Model->__call('total_user', Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->list_user()
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 07:57:58 --> Call to undefined method App\Models\ModelAntrian::total_user
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(36): CodeIgniter\Model->__call('total_user', Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->list_user()
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 08:01:43 --> Undefined variable: total_admin
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\list_user.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/list_user', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(38): view('admin/list_user', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->list_user()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-15 23:53:16 --> Undefined variable: id_antrian_jb
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\index.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 242, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(28): view('admin/index', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-15 23:53:27 --> Undefined variable: id_antrian_jb
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\index.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 242, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(28): view('admin/index', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-15 23:53:32 --> Undefined variable: id_antrian_jb
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\index.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 242, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(28): view('admin/index', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

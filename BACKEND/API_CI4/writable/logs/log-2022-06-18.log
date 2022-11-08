@@ -1,0 +1,58 @@
+CRITICAL - 2022-06-18 07:18:43 --> Undefined variable: akses_level
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\list_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/list_user', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(164): view('admin/list_user', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->list_user()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-18 07:19:18 --> Undefined variable: akses_level
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\list_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/list_user', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(164): view('admin/list_user', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->list_user()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-18 07:31:58 --> Undefined variable: akses_level
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\list_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/list_user', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(164): view('admin/list_user', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->list_user()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-18 07:32:17 --> Undefined variable: akses_level
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Views\admin\list_user.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project-uas-semester-4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project-uas-semester-4\system\Common.php(1089): CodeIgniter\View\View->render('admin/list_user', Array, true)
+#4 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(164): view('admin/list_user', Array)
+#5 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->list_user()
+#6 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-18 20:30:25 --> Call to undefined method App\Models\ModelAntrian::list_inp1_inp2_inp3
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(442): CodeIgniter\Model->__call('list_inp1_inp2_...', Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->laporan_inp1_inp2_inp3()
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-18 20:30:33 --> Call to undefined method App\Models\ModelAntrian::list_inp1_inp2_inp3
+#0 C:\xampp\htdocs\project-uas-semester-4\app\Controllers\Admin.php(442): CodeIgniter\Model->__call('list_inp1_inp2_...', Array)
+#1 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(832): App\Controllers\Admin->laporan_inp1_inp2_inp3()
+#2 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\project-uas-semester-4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project-uas-semester-4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
